@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: selfhostedwin10002
+  vmImage: selfagent1001
 
 steps:
 - task: Maven@3
