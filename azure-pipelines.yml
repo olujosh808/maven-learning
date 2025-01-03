@@ -6,7 +6,10 @@
 trigger:
 - master
 
-pool: default
+pool: 
+ name: Default
+ demands:
+ - agent.name -equals jagaban001
 
 steps:
 - task: Maven@4
